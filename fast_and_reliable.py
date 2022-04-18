@@ -1,10 +1,12 @@
 import time
-def stucture_search(structure):
+
+
+def data_structure(structure):
     """
-    This function  returns the time that it takes to search the word 'zwitterion'
-    in that file given .
-    :param structure: The structure where we are searching
-    :return: the average of time that it took to search the word 'zwitterion' 1000 times
+    The function returns the time that it takes to search the word 'zwitterion'
+    in that file given.
+    :param structure:The structure where we are searching
+    :return:The average of time that it took to search the word 'zwitterion' 1000 times
     """
     start = time.time()
 
@@ -15,8 +17,3 @@ def stucture_search(structure):
                 break
 
     return (time.time() - start) / 1000
-
-
-
-
-
